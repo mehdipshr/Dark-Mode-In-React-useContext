@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  justify-content: center;
+  align-items: center; 
+}
+#light {
+  background-color: rgba(255, 255, 255, 0.74);
+  
+}
+#dark {
+  background-color: rgba(22, 22, 22, 0.952);
+  
+}
+
+.Switch-toggle{
+  display: flex;
+  width: 100vw;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+#light .Switch-toggle label {
+  color: black; 
+}
+#dark .Switch-toggle label {
+  color: rgb(255, 255, 255); 
+}
